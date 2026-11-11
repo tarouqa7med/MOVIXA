@@ -18,6 +18,8 @@ body {
         box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.35);
         position: relative;
         color: #ffcfe6;
+        @include display($d: flex, $j: center, $a: center);
+        flex-direction: column;
 
         .signin {
                 color: #ff5860;
@@ -59,8 +61,8 @@ body {
                         input[type="checkbox"] {
                                 appearance: none;
                                 -webkit-appearance: none;
-                                width: 20px;
-                                height: 20px;
+                                width: 19px;
+                                height: 19px;
                                 border: 1.5px solid #ccc;
                                 border-radius: 5px !important;
                                 cursor: pointer;
@@ -100,6 +102,9 @@ body {
                                 &:hover {
                                         background: linear-gradient(135deg, #ff5860, #ff55a5 );
                                         box-shadow: 0 0 15px 3px #ff586080;
+                                }
+                                &:active {
+                                        scale: .9;
                                 }
                         }
                 }

@@ -18,6 +18,10 @@ body {
   box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.35);
   position: relative;
   color: #ffcfe6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .signindiv .signin {
   color: #ff5860;
@@ -60,8 +64,8 @@ body {
 .signindiv form .form-control input[type=checkbox] {
   appearance: none;
   -webkit-appearance: none;
-  width: 20px;
-  height: 20px;
+  width: 19px;
+  height: 19px;
   border: 1.5px solid #ccc;
   border-radius: 5px !important;
   cursor: pointer;
@@ -99,6 +103,9 @@ body {
 .signindiv form .form-control button:hover {
   background: linear-gradient(135deg, #ff5860, #ff55a5);
   box-shadow: 0 0 15px 3px rgba(255, 88, 96, 0.5019607843);
+}
+.signindiv form .form-control button:active {
+  scale: 0.9;
 }
 .signindiv p {
   font-size: 14px;

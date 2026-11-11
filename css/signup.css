@@ -1,0 +1,158 @@
+body {
+  background-image: url("./../images/section__bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signupdiv {
+  width: 35%;
+  height: 85%;
+  max-height: 480px;
+  background-color: #212529;
+  box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.35);
+  position: relative;
+  color: #ffcfe6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.signupdiv .signin {
+  color: #ff5860;
+}
+.signupdiv::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  background: linear-gradient(135deg, #ff55a5, #ff5860);
+  z-index: -1;
+  transform: translate(-2px, -2px);
+  border-radius: 16px;
+}
+.signupdiv form {
+  width: 100%;
+  max-width: 350px;
+  margin: auto;
+}
+.signupdiv form .form-control input:not(input[type=checkbox]) {
+  width: 100%;
+  height: 50px;
+  background-color: #30353a;
+  border: 1px solid transparent;
+  transition-duration: 350ms;
+  outline: none;
+  color: white;
+}
+.signupdiv form .form-control input:not(input[type=checkbox]):hover {
+  border: 1px solid #ff55a5;
+}
+.signupdiv form .form-control input:not(input[type=checkbox]):focus {
+  border: 1px solid #ff55a5;
+  outline: none;
+}
+.signupdiv form .form-control input:not(input[type=checkbox])::placeholder {
+  color: #ffcfe6;
+}
+.signupdiv form .form-control input[type=checkbox] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 19px;
+  height: 19px;
+  border: 1.5px solid #ccc;
+  border-radius: 5px !important;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s ease;
+}
+.signupdiv form .form-control input[type=checkbox]:hover {
+  border-color: #ff5860;
+}
+.signupdiv form .form-control input[type=checkbox]:checked {
+  background-color: rgba(255, 85, 164, 0.5019607843);
+  border-color: #ff55a5;
+}
+.signupdiv form .form-control input[type=checkbox]:checked::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 6px;
+  width: 5px;
+  height: 10px;
+  border: solid #ffcfe6;
+  border-width: 0 2.5px 2.5px 0;
+  transform: rotate(45deg);
+}
+.signupdiv form .form-control input[type=checkbox] + label {
+  color: #ffcfe6;
+  user-select: none;
+  font-size: 12px;
+}
+.signupdiv form .form-control input[type=checkbox] + label a {
+  font-size: 12px;
+}
+.signupdiv form .form-control button {
+  height: 45px;
+  background: linear-gradient(135deg, #ff55a5, #ff5860);
+  box-shadow: 0 0 10px 2px rgba(255, 88, 96, 0.5019607843);
+  transition-duration: 200ms;
+}
+.signupdiv form .form-control button:hover {
+  background: linear-gradient(135deg, #ff5860, #ff55a5);
+  box-shadow: 0 0 15px 3px rgba(255, 88, 96, 0.5019607843);
+}
+.signupdiv form .form-control button:active {
+  scale: 0.9;
+}
+.signupdiv p {
+  font-size: 14px;
+}
+.signupdiv p a {
+  color: #ff55a5;
+  text-decoration: none;
+}
+.signupdiv a {
+  font-size: 14px;
+  color: #ff55a5;
+  text-decoration: none;
+}
+@media screen and (max-width: 1179.98px) {
+  .signupdiv {
+    width: 50% !important;
+    max-height: 480px;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .signupdiv {
+    width: 50% !important;
+    max-height: 450px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .signupdiv {
+    width: 75% !important;
+    max-height: 450px;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  .signupdiv {
+    width: 90% !important;
+    max-height: 450px;
+  }
+}
+@media screen and (max-width: 370.98px) {
+  .signupdiv {
+    width: 90% !important;
+    max-height: 500px;
+  }
+}
+
+/*# sourceMappingURL=signup.css.map */

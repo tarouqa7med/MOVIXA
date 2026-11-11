@@ -39,7 +39,8 @@ body {
   border-radius: 16px;
 }
 .signindiv form {
-  width: 75%;
+  width: 100%;
+  max-width: 350px;
   margin: auto;
 }
 .signindiv form .form-control input:not(input[type=checkbox]) {

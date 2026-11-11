@@ -34,7 +34,8 @@ body {
         }
 
         form {
-                width: 75%;
+                width: 100%;
+                max-width: 350px;
                 margin: auto;
 
                 .form-control {

@@ -1,0 +1,162 @@
+@use "./../abstracts/main" as *;
+
+body {
+        background-image: url("./../images/section__bg.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+        @include display($d: flex, $j: center, $a: center);
+}
+
+.signupdiv {
+        width: 35%;
+        height: 85%;
+        max-height: 480px;
+        background-color: #212529;
+        box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.35);
+        position: relative;
+        color: #ffcfe6;
+        @include display($d: flex, $j: center, $a: center);
+        flex-direction: column;
+
+        .signin {
+                color: #ff5860;
+        }
+
+        &::before {
+
+                content: "";
+                @include pos($ps: absolute, $t: 0, $l: 0, $w: calc(100% + 4px), $h: calc(100% + 4px), $bg: linear-gradient(135deg, #ff55a5, #ff5860), $zIndex: -1);
+                transform: translate(-2px, -2px);
+                border-radius: 16px;
+        }
+
+        form {
+                width: 100%;
+                max-width: 350px;
+                margin: auto;
+
+                .form-control {
+                        input:not(input[type="checkbox"]) {
+                                width: 100%;
+                                height: 50px;
+                                background-color: #30353a;
+                                border: 1px solid transparent;
+                                transition-duration: 350ms;
+                                outline: none;
+                                color: white;
+                                &:hover {
+                                        border: 1px solid #ff55a5;
+                                }
+                                &:focus {
+                                        border: 1px solid #ff55a5;
+                                        outline: none;
+                                }
+
+                                &::placeholder {
+                                        color: #ffcfe6;
+                                }
+                        }
+                        input[type="checkbox"] {
+                                appearance: none;
+                                -webkit-appearance: none;
+                                width: 19px;
+                                height: 19px;
+                                border: 1.5px solid #ccc;
+                                border-radius: 5px !important;
+                                cursor: pointer;
+                                position: relative;
+                                transition: all 0.2s ease;
+
+                                &:hover {
+                                        border-color: #ff5860;
+                                }
+                                &:checked {
+                                        background-color: #ff55a480;
+                                        border-color: #ff55a5;
+                                }
+                                &:checked::after {
+                                content: '';
+                                        position: absolute;
+                                        top: 2px;
+                                        left: 6px;
+                                        width: 5px;
+                                        height: 10px;
+                                        border: solid #ffcfe6;
+                                        border-width: 0 2.5px 2.5px 0;
+                                        transform: rotate(45deg);
+                                }
+
+                                & + label {
+                                color: #ffcfe6;
+                                user-select: none;
+                                font-size: 12px;
+                                a {
+                                        font-size: 12px;
+                                }
+                        }
+                        }
+                        button {
+                                height: 45px;
+                                background: linear-gradient(135deg, #ff55a5, #ff5860);
+                                box-shadow: 0 0 10px 2px #ff586080;
+                                transition-duration: 200ms;
+                                
+                                &:hover {
+                                        background: linear-gradient(135deg, #ff5860, #ff55a5 );
+                                        box-shadow: 0 0 15px 3px #ff586080;
+                                }
+                                &:active {
+                                        scale: .9;
+                                }
+                        }
+                }
+        }
+
+        p {
+                font-size: 14px;
+                a {
+                        color: #ff55a5;
+                        text-decoration: none;
+                }
+        }
+        a {
+                font-size: 14px;
+                color: #ff55a5;
+                text-decoration: none;
+        }
+
+        @include resp(1050) {
+                & {
+                        width: 50% !important;
+                        max-height: 480px;
+                }
+        }
+        @include resp(850) {
+                & {
+                        width: 50% !important;
+                        max-height: 450px;
+                }
+        }
+        @include resp(650) {
+                & {
+                        width: 75% !important;
+                        max-height: 450px;
+                }
+        }
+        @include resp(450) {
+                & {
+                        width: 90% !important;
+                        max-height: 450px;
+                }
+        }
+        @include resp(250) {
+                & {
+                        width: 90% !important;
+                        max-height: 500px;
+                }
+        }
+
+}

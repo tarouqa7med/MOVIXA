@@ -11,8 +11,9 @@ body {
 }
 
 .signindiv {
-        height: 85%;
         width: 35%;
+        height: 85%;
+        max-height: 480px;
         background-color: #212529;
         box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.35);
         position: relative;
@@ -117,9 +118,34 @@ body {
                 text-decoration: none;
         }
 
-        @include resp(250) {
-                .signindiv {
+        @include resp(1050) {
+                & {
+                        width: 50% !important;
+                        max-height: 480px;
+                }
+        }
+        @include resp(850) {
+                & {
+                        width: 50% !important;
+                        max-height: 450px;
+                }
+        }
+        @include resp(650) {
+                & {
+                        width: 75% !important;
+                        max-height: 450px;
+                }
+        }
+        @include resp(450) {
+                & {
                         width: 90% !important;
+                        max-height: 450px;
+                }
+        }
+        @include resp(250) {
+                & {
+                        width: 90% !important;
+                        max-height: 450px;
                 }
         }
 

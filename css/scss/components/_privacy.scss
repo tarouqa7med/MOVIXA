@@ -1,0 +1,92 @@
+@use "./../abstracts/main" as *;
+
+body {
+        background: #212529;
+
+        &::-webkit-scrollbar {
+                width: 10px;
+        }
+        &::-webkit-scrollbar-thumb {
+                background-color:  #ff55a5;
+                border-radius: 3px;
+        }
+}
+header {
+        border-bottom: 2px solid #ff55a5;
+        height: 35vh;
+        background: url("./../images/section__bg.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #ffe4f1;
+        @include display($d: flex, $j: center , $a: center);
+
+        a {
+                color: #ffe4f1;
+                text-decoration: none;
+                transition-duration: 200ms;
+
+                &:hover {
+                        color: #ff55a5;
+                }
+        }
+
+        .container {
+                text-align: center;
+                @include resp(450) {
+                        flex-direction: column;
+                        div {
+                                margin: auto;
+                        }
+                } @include resp(250) {
+                        flex-direction: column;
+                        div {
+                                margin: auto;
+                        }
+                }
+        }
+}
+ol.multi-level-list, 
+ol.multi-level-list ol {
+  list-style: none;
+  counter-reset: item;
+  padding-left: 20px;
+  color: #ffe4f1;
+}
+ol.multi-level-list li {
+  counter-increment: item;
+  margin-bottom: 8px;
+}
+ol.multi-level-list li::before {
+  content: counters(item, ".") ". ";
+  font-weight: bold;
+  color: #ff55a5;
+  margin-right: 6px;
+}
+.privacy {
+        p {
+                color: #ffe4f1;
+                
+                .webpage {
+                        color: #ff55a5;
+                        text-decoration: none;
+                }
+        }
+
+        @include resp(850) {
+                margin: 0px !important;
+                padding: 50px !important;
+        }
+        @include resp(650) {
+                margin: 0px !important;
+                padding: 50px !important;
+        }
+        @include resp(450) {
+                margin: 0px !important;
+                padding: 25px !important;
+        }
+        @include resp(250) {
+                margin: 0px !important;
+                padding: 25px !important;
+        }
+}

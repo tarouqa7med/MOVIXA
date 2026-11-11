@@ -1,0 +1,104 @@
+body {
+  background: #212529;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #ff55a5;
+  border-radius: 3px;
+}
+
+header {
+  border-bottom: 2px solid #ff55a5;
+  height: 35vh;
+  background: url("./../images/section__bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffe4f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header a {
+  color: #ffe4f1;
+  text-decoration: none;
+  transition-duration: 200ms;
+}
+header a:hover {
+  color: #ff55a5;
+}
+header .container {
+  text-align: center;
+}
+@media screen and (max-width: 575.98px) {
+  header .container {
+    flex-direction: column;
+  }
+  header .container div {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 370.98px) {
+  header .container {
+    flex-direction: column;
+  }
+  header .container div {
+    margin: auto;
+  }
+}
+
+ol.multi-level-list,
+ol.multi-level-list ol {
+  list-style: none;
+  counter-reset: item;
+  padding-left: 20px;
+  color: #ffe4f1;
+}
+
+ol.multi-level-list li {
+  counter-increment: item;
+  margin-bottom: 8px;
+}
+
+ol.multi-level-list li::before {
+  content: counters(item, ".") ". ";
+  font-weight: bold;
+  color: #ff55a5;
+  margin-right: 6px;
+}
+
+.privacy p {
+  color: #ffe4f1;
+}
+.privacy p .webpage {
+  color: #ff55a5;
+  text-decoration: none;
+}
+@media screen and (max-width: 991.98px) {
+  .privacy {
+    margin: 0px !important;
+    padding: 50px !important;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .privacy {
+    margin: 0px !important;
+    padding: 50px !important;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  .privacy {
+    margin: 0px !important;
+    padding: 25px !important;
+  }
+}
+@media screen and (max-width: 370.98px) {
+  .privacy {
+    margin: 0px !important;
+    padding: 25px !important;
+  }
+}
+
+/*# sourceMappingURL=privacy.css.map */

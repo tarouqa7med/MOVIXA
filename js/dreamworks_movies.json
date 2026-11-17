@@ -1,0 +1,198 @@
+[
+  {
+    "id": 1,
+    "title": "How to Train Your Dragon",
+    "releaseYear": 2010,
+    "durationMinutes": 98,
+    "boxOfficeRevenue": "$494.9M",
+    "ratingOutOf10": 8.1,
+    "synopsis": "On the island of Berk, where fighting dragons is a way of life, a young Viking named Hiccup changes the fate of his village forever when he befriends Toothless, a rare and dangerous dragon from the Night Fury species.",
+    "director": [
+      "Dean DeBlois",
+      "Chris Sanders"
+    ],
+    "voiceCast": [
+      "Jay Baruchel",
+      "Gerard Butler",
+      "America Ferrera"
+    ],
+    "image": "1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Kung Fu Panda",
+    "releaseYear": 2008,
+    "durationMinutes": 92,
+    "boxOfficeRevenue": "$631.7M",
+    "ratingOutOf10": 7.6,
+    "synopsis": "By chance, the noodle-loving panda Po is chosen to become the legendary Dragon Warrior. He embarks on an epic training journey with the Furious Five to protect the Valley of Peace from the fearsome snow leopard Tai Lung.",
+    "director": [
+      "Mark Osborne",
+      "John Stevenson"
+    ],
+    "voiceCast": [
+      "Jack Black",
+      "Dustin Hoffman",
+      "Angelina Jolie",
+      "Jackie Chan"
+    ],
+    "image": "2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Shrek",
+    "releaseYear": 2001,
+    "durationMinutes": 90,
+    "boxOfficeRevenue": "$488.4M",
+    "ratingOutOf10": 7.9,
+    "synopsis": "The reclusive green ogre Shrek sets out with his talkative donkey on a quest to rescue Princess Fiona from a fire-breathing dragon, hoping to reclaim the peace of his swamp in a witty parody of classic fairy tales.",
+    "director": [
+      "Andrew Adamson",
+      "Vicky Jenson"
+    ],
+    "voiceCast": [
+      "Mike Myers",
+      "Eddie Murphy",
+      "Cameron Diaz",
+      "John Lithgow"
+    ],
+    "image": "3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Madagascar",
+    "releaseYear": 2005,
+    "durationMinutes": 86,
+    "boxOfficeRevenue": "$542.1M",
+    "ratingOutOf10": 6.9,
+    "synopsis": "Four pampered animals from New York City's Central Park Zoo suddenly find themselves on the shores of wild Madagascar, where they must adapt to nature and the island's lively lemur kingdom.",
+    "director": [
+      "Eric Darnell",
+      "Tom McGrath"
+    ],
+    "voiceCast": [
+      "Ben Stiller",
+      "Chris Rock",
+      "David Schwimmer",
+      "Jada Pinkett Smith"
+    ],
+    "image": "4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Puss in Boots: The Last Wish",
+    "releaseYear": 2022,
+    "durationMinutes": 102,
+    "boxOfficeRevenue": "$484.7M",
+    "ratingOutOf10": 7.8,
+    "synopsis": "After losing eight of his nine lives, the adventurous Puss in Boots sets off on a legendary journey into the Dark Forest to find the mythical Wishing Star and restore his lost lives.",
+    "director": [
+      "Joel Crawford"
+    ],
+    "voiceCast": [
+      "Antonio Banderas",
+      "Salma Hayek",
+      "Florence Pugh",
+      "Wagner Moura"
+    ],
+    "image": "5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "The Prince of Egypt",
+    "releaseYear": 1998,
+    "durationMinutes": 99,
+    "boxOfficeRevenue": "$218.6M",
+    "ratingOutOf10": 7.2,
+    "synopsis": "This timeless visual and musical epic tells the story of the historic struggle between adoptive brothers Moses and Ramses in ancient Egypt, exploring human bonds and a divine calling.",
+    "director": [
+      "Brenda Chapman",
+      "Steve Hickner",
+      "Simon Wells"
+    ],
+    "voiceCast": [
+      "Val Kilmer",
+      "Ralph Fiennes",
+      "Michelle Pfeiffer",
+      "Sandra Bullock"
+    ],
+    "image": "6.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Megamind",
+    "releaseYear": 2010,
+    "durationMinutes": 95,
+    "boxOfficeRevenue": "$321.9M",
+    "ratingOutOf10": 7.3,
+    "synopsis": "After finally defeating his heroic rival Metro Man, the brilliant blue-headed Megamind discovers that life without an opponent is unbearably dull. He decides to create a new hero, who soon turns into an unstoppable threat.",
+    "director": [
+      "Tom McGrath"
+    ],
+    "voiceCast": [
+      "Will Ferrell",
+      "Brad Pitt",
+      "Tina Fey",
+      "Jonah Hill"
+    ],
+    "image": "7.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Rise of the Guardians",
+    "releaseYear": 2012,
+    "durationMinutes": 97,
+    "boxOfficeRevenue": "$306.9M",
+    "ratingOutOf10": 7.2,
+    "synopsis": "When the evil spirit Pitch Black threatens to plunge the world into nightmares and darkness, the legendary Guardians of Childhood join forces with rebellious Jack Frost to protect the dreams of children everywhere.",
+    "director": [
+      "Peter Ramsey"
+    ],
+    "voiceCast": [
+      "Chris Pine",
+      "Hugh Jackman",
+      "Alec Baldwin",
+      "Jude Law"
+    ],
+    "image": "8.jpg"
+  },
+  {
+    "id": 9,
+    "title": "The Croods",
+    "releaseYear": 2013,
+    "durationMinutes": 98,
+    "boxOfficeRevenue": "$587.2M",
+    "ratingOutOf10": 7.1,
+    "synopsis": "After their cave is destroyed, the prehistoric Crood family must embark on an extraordinary journey through a spectacular world filled with strange creatures and surprises as they search for a new place in the future.",
+    "director": [
+      "Kirk DeMicco",
+      "Chris Sanders"
+    ],
+    "voiceCast": [
+      "Nicolas Cage",
+      "Emma Stone",
+      "Ryan Reynolds",
+      "Catherine Keener"
+    ],
+    "image": "9.jpg"
+  },
+  {
+    "id": 10,
+    "title": "The Wild Robot",
+    "releaseYear": 2024,
+    "durationMinutes": 102,
+    "boxOfficeRevenue": "$334.5M",
+    "ratingOutOf10": 8.3,
+    "synopsis": "A crash leaves the intelligent robot Roz stranded on an uninhabited island. She learns to adapt to the harsh wilderness, forms deep friendships with forest animals, and becomes the adoptive mother of an orphaned gosling.",
+    "director": [
+      "Chris Sanders"
+    ],
+    "voiceCast": [
+      "Lupita Nyong'o",
+      "Pedro Pascal",
+      "Kit Connor",
+      "Bill Nighy"
+    ],
+    "image": "10.jpg"
+  }
+]

@@ -10,6 +10,8 @@
         align-items: center;
         flex-direction: column;
         background-color: rgb(5 10 24 / var(--tw-bg-opacity, 1));
+        transition-duration: 500ms;
+        opacity: 0;
         z-index: 9999;
 }
 .loadingPage.show {

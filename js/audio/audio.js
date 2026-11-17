@@ -42,3 +42,4 @@ function playCinemaChime(type = 'pop') {
                 // Ignore audio restrictions silently
         }
 }
+playCinemaChime('pop');
